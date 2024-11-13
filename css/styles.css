@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 50px 70px;
+}
+.nav-bar {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+
+}
+
+.nav-bar-text {
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    width: 250px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: solid 1px  black;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    padding: 11.5px 50px;
+    background-color: #3065f8;
+    border-radius: 3px;
+    border: none;
+    color:  #f6f6fe;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.188);
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #3065f8b8;
+}
+
+/* Hide the message by default */
+.message {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Show the message when the input is valid */
+  input:valid + .message {
+    display: block;
+  }
+
+form {
+    margin-top: 30px;
+}
+
+.illustration-img {
+    width: 700px;
+}
+
+.first-flex {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.first-flex-text {
+    font-weight: 450;
+    line-height: 1.7;
+}
+
+.second-flex {
+    background-image: url(/images/bg-curve-desktop.svg);
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    font-size: 2rem;
+}
+
+.see-how-text {
+    font-family: 'Raleway', sans-serif;
+    color:  #3c9f8f;
+    text-underline-offset: 5px;
+    display: inline;
+}
+
+.see-how-text:hover{
+    color: #bfbfbf;
+}
+
+.arrow:hover {
+    fill: #bfbfbf;
+}
+
+
+.smaller-container {
+    background-color:  white;
+    width: 300px;
+    margin-top: 50px;
+    padding: 20px 30px 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.small-container-text {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    width: 100%;
+}
+
+.avatar-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.name-text {
+    font-size: 0.7rem;
+    margin-top: 0;
+}
+
+.illustration-2-img {
+    width: 700px;
+}
+
+.top-footer {
+    background-color:  #585989;
+    padding: 50px;
+    color: #f6f6fe;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: block;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.top-footer-text-container {
+    width: 500px;
+}
+
+.top-footer-text {
+    width: 100%;
+    line-height: 1.7;
+}
+
+footer {
+    background-color:  #070439;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    color: #f6f6fe;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo-img {
+    filter: invert(100%) brightness(100%) contrast(100%) saturate(0%);
+    margin-bottom: 20px;
+}
+
+.phone-section {
+    display: flex;
+    align-items: center;
+}
+
+.message-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-icons {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-text-1 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.footer-text-2 {
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 200px;
+    row-gap: 15px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    font-size: 20px;
+    color: #f6f6fe;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.grid-1:hover, .icons:hover {
+    color:  #3065f8;
+}
+
+.fa-facebook {
+    padding: 5px 4px;
+}
